@@ -1,0 +1,218 @@
+﻿
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Robinsonelevator</title>
+	<link media="all" rel="stylesheet" type="text/css" href="css/all.css">
+	<link href='http://fonts.googleapis.com/css?family=Droid+Sans:400,700' rel='stylesheet' type='text/css'>
+	<script type="text/javascript" src="js/jquery-1.11.2.min.js"></script>
+	<script type="text/javascript" src="js/jquery.carousel.js"></script>
+	<script type="text/javascript" src="js/jquery.accordion.js"></script>
+	<script src="https://maps.googleapis.com/maps/api/js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
+</head>
+<body>
+	<div class="wrapper">
+		<div class="wrapper-header">	
+			<header class="header">
+				<strong class="logo"><a href="index.html">LOGO</a></strong>
+				<nav class="nav-header">
+					<ul>
+						<li><a href="index.html">home</a></li>
+						<li><a href="inner.html">contact</a></li>
+						<li><a href="#">sitemap</a></li>
+					</ul>	
+				</nav>
+			</header>
+		</div>
+		<div class="content">
+			<div class="content-head">
+				<nav class="nav-content">
+					<ul>
+						<li><a href="#">service</a></li>
+						<li><a href="#">consalting</a>
+							<div class="drop-down">
+								<ul>
+									<li><a href="#">NYC Test Witnessing</a></li>
+									<li><a href="#">Maintenance Contracts</a></li>
+									<li><a href="#">Maintenance Monitoring</a></li>
+									<li><a href="#">Elevator Audit Service</a></li>
+									<li><a href="#">Performance Analysis</a></li>
+								</ul>
+								<ul>
+									<li><a href="#">Modernization Specifications</a></li>
+									<li><a href="#">Portfolio Management</a></li>
+									<li><a href="#">What’s News</a></li>
+									<li><a href="#">Request for Proposal</a></li>
+								</ul>
+							</div>
+						</li>
+						<li><a href="#">education</a>
+							<div class="drop-down">
+								<ul>
+									<li><a href="#">NYC-DOB Inspector Prep Class</a></li>
+									<li><a href="#">Elevators 101</a></li>
+									<li><a href="#">Safety Training</a></li>
+									<li><a href="#">How to Perform Inspections</a></li>
+									<li><a href="#">Custom Elevator Training</a></li>
+									<li><a href="#">Class Schedule</a></li>
+								</ul>
+							</div>
+						</li>
+					</ul>
+				</nav>
+			</div>
+			<div class="section">
+				<div class="aside">
+					<ul>
+						<li><a href="#">Careers</a></li>
+						<li><a href="#">Testimonials</a></li>
+						<li><a href="#">History</a></li>
+						<li><a href="#">Client Portfolio</a></li>
+						<li><a href="#" class="active">Contact</a></li>
+					</ul>
+				</div>
+				<div class="info-contact">
+					<div class="contact">
+						<h2>CONTACT</h2>
+						<p>We want to hear from you! Fill out the form below and one of our representative will contact you within 24 hours.</p>
+						<div class="column-info">
+							<p>Robinson Elevator Group<br> 127 Union Avenue, 1st Floor<br> Middlesex, NY 008846<br> T: 888-690-5820<br> F:800-379-9725<br> Email:<br> <a href="mailto:info@RobinsonElevatorGroup.com">info@RobinsonElevatorGroup.com</a></p>
+						</div>
+						<div class="column-info">
+							<p>Robinson Elevator<br> 11 Penn Plaza, 5th Floor<br> New York, NY 10001<br> T: 888-690-5820<br> F:800-379-9725<br> Email:<br> <a href="mailto:info@RobinsonElevators.com">info@RobinsonElevators.com</a></p>
+						</div>
+					</div>
+					<div id="map"></div>
+					<form class="form">
+						<input type="first name" required pattern="[A-Za-zА-Яа-яЁё]{6,}" name="first name" placeholder="First Name">
+						<input class="right-side" type="last name" required pattern="[A-Za-zА-Яа-яЁё]{6,}" name="last name" placeholder="Last Name">
+						<input type="tel" required pattern="(\+?\d[- .]*){7,13}" name="tel" placeholder="Phone">
+						<input class="right-side" type="email" required pattern="[^@]+@[^@]+\.[a-zA-Z]{2,6}" name="email" placeholder="Email">
+						<input type="city" required pattern="[A-Za-zА-Яа-яЁё]{6,}" name="city" placeholder="City">
+						<select class="state">
+							<option>State</option>
+							<option></option>
+							<option></option>
+						</select>
+						<textarea rows="10" cols="" placeholder="Comments..."></textarea>
+						<input class="submit" type="submit" value="SUBMIT">
+					</form>
+				</div>
+				<div class="sidebar">
+					<ul class="accordion simple-accordion">
+							<li>
+								<a href="#" class="opener">Whats News</a>
+								<div class="slide">
+									<span>Aug.30.2011</span>
+									<a href="#">Approved Continuing Education Providers Now Available</a>
+								</div>
+								<div class="slide">
+									<span>Aug.30.2011</span>
+									<a href="#">MJR Consulting</a>
+								</div>
+								<div class="slide">
+									<span>Aug.30.2011</span>
+									<a href="#">QEI Services Coming To Canada & CECA 2010</a>
+								</div>
+								<div class="slide">
+									<span>Aug.30.2011</span>
+									<a href="#">MJR Consulting</a>
+								</div>
+								<div class="slide">
+									<span>Aug.30.2011</span>
+									<a href="#">QEI Services</a>
+								</div>
+							</li>
+							<li>
+								<a href="#" class="opener">Testimonials</a>
+								<div class="slide">
+								</div>
+							</li>
+							<li>
+								<a href="#" class="opener">Careers</a>
+								<div class="slide">
+								</div>
+							</li>
+							<li>
+								<a href="#" class="opener">History</a>
+								<div class="slide">
+								</div>
+							</li>
+							<li>
+								<a href="#" class="opener">Client Portfolio</a>
+								<div class="slide">
+									<p>Here is a list of industries we specialize in:</p>
+									<p>Property Management Hospitality & Retail Health, Hospital & Education</p>
+									<p>Click here for Partial client list</p>
+								</div>
+							</li>
+							<li>
+								<a href="#" class="opener">Contact Us</a>
+								<div class="slide">
+								</div>
+							</li>
+						</ul>
+				</div>
+			</div>
+		</div>
+		<div class="wrapper-footer">
+			<div class="footer">
+				<div class="footer-list">
+					<h4>Elevator</h4>
+					<ul>
+						<li><a href="#">Maintenance-Repair</a></li>
+						<li><a href="#">Modernization</a></li>
+						<li><a href="#">New Installation</a></li>
+						<li><a href="#">NYC Violation Services</a></li>
+						<li><a href="#">Green Solutions</a></li>
+					</ul>
+				</div>
+				<div class="footer-list">
+					<h4>Consulting</h4>
+					<ul>
+						<li><a href="#">NYC Test</a></li>
+						<li><a href="#">Witnessing-Maintenance</a></li>
+						<li><a href="#">Contracts</a></li>
+						<li><a href="#">Maintenance Monitoring</a></li>
+						<li><a href="#">Elevator Audit Service</a></li>
+						<li><a href="#">Performance Analysis</a></li>
+						<li><a href="#">Modernization</a></li>
+						<li><a href="#">Specifications</a></li>
+						<li><a href="#">Portfolio Management</a></li>
+					</ul>
+				</div>
+				<div class="footer-list">
+					<h4>QEI Services</h4>
+					<ul>
+						<li><a href="#">QEI Certification-QEI</a></li>
+						<li><a href="#">Renewal Seminars</a></li>
+						<li><a href="#">QEI Inspector Search</a></li>
+						<li><a href="#">QEI Code of Ethics</a></li>
+						<li><a href="#">QEIFAQ’s</a></li>
+						<li><a href="#">Class Schedule</a></li>
+					</ul>
+				</div>
+				<div class="footer-list">
+					<h4>Robinson Educational Services</h4>
+					<ul>
+						<li><a href="#">NYC-DOB Inspector Prep Class</a></li>
+						<li><a href="#">Elevators 101</a></li>
+						<li><a href="#">Safety Training</a></li>
+						<li><a href="#">How to Perform Inspections</a></li>
+						<li><a href="#">Custom Elevator Training</a></li>
+						<li><a href="#">Class Schedule</a></li>
+					</ul>
+				</div>
+				<div class="footer-list">
+					<h4>Connect with us:</h4>
+					<ul>
+						<li><a href="https://www.facebook.com/pages/Robinson-Elevator-Group/109453222416537"><img src="img/facebook-like.gif"></a></li>
+					</ul>
+				</div>
+			</div>	
+		</div>
+	</div>
+</body>
+</html>
