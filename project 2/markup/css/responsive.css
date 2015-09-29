@@ -1,0 +1,129 @@
+@media screen and (max-width: 767px) {
+	.navbar-toggle {
+		margin-top: 20px;
+	}
+	.navbar-inverse .navbar-collapse {
+		min-height: 330px;
+		text-align: center;
+	}
+	.signup {
+		float: none;
+		margin: 0 auto;
+	}
+	.things .play-txt {
+		padding-left: 10px;
+	}
+	.title-article {
+		font-size: 36px;
+		padding-right: 10px;
+	}
+	.services-feature {
+		margin-top: 15px;
+	}
+	.bolt_hammer {
+		padding-top: 0px;
+	}
+	.icons {
+	margin: 15px 0;
+}	
+	.icons-txt {
+		padding-left: 25px;
+	}
+	.navbar .navbar-nav {
+		margin: 0 auto;
+	}
+	.navbar .navbar-nav > li > a:last-child {
+		margin-bottom: 15px;
+	}
+	.tabs > li > a {
+		min-width: 0;
+		font-size: 10px;
+	}
+	.tabs a {
+		margin: 10px;
+	}
+	.comments {
+		margin-top: 45px;
+	}
+	.more {
+		margin-bottom: 10px;
+	}
+	.team-icons p {
+		font-size: 40px;
+		margin: 0;
+	}
+	.team-icons span {
+		font-size: 14px;
+	}
+	.accordion .opener {
+		font-size: 12px;
+	}
+	.form-control {
+		font-size: 15px;
+	}
+	.btn-default {
+		margin-left: 0px;
+	}
+	.brand-icon {
+		margin-top: 10px;
+	}
+	.slide-text {
+		font-size: 18px;
+	}
+	.c100 {
+		margin: 0 0.1em 0.1em 25px;
+	}
+	.about-our-skills {
+		padding-left: 15px;
+		padding-right: 15px;
+		margin-bottom: 15px;
+	}
+	form input[type="submit"] {
+		background: #fff;
+		margin-bottom: 15px; 
+		margin-top: 15px;
+	}
+	form input[type="text"]{
+		padding: 0;
+	}
+}
+@media screen and (min-width: 768px) and (max-width: 991px) {
+	form input[type="submit"] {
+		background: #fff;
+		margin-bottom: 10px; 
+		margin-top: 15px;
+	}
+	form input[type="text"]{
+		padding: 0;
+	}
+	.things .play-txt {
+		padding-left: 10px;
+	}
+	.form-control {
+		font-size: 15px;
+	}	
+	.brand-icon {
+		margin-top: 10px;
+	}
+	.social-icons{
+		margin-left: -225px;
+	}
+	.services-feature {
+		margin-top: 15px;
+	}
+	.bolt_hammer {
+		padding-top: 0px;
+	}
+	.about-our-skills {
+		padding-left: 15px;
+		padding-right: 15px;
+		margin-bottom: 15px;
+	}
+	.people-info {
+    margin-top: -45px;
+    margin-bottom: 20px
+	}
+	.comments {
+		margin-top: 45px;
+	}
+}
